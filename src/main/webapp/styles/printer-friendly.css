@@ -1,0 +1,197 @@
+@media screen
+{
+    .noPrint{}
+    .noScreen{display:none;}
+}
+
+
+@media print{
+    .connection{
+       display: none !important;
+    }
+    html, body {
+        box-shadow: none;
+    }
+
+    .noPrint{
+        display:none;
+    }
+
+    .noScreen{
+
+    }
+
+    .main-header{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .grammar-and-citation-logo{
+        width : 350px;
+        float : left;
+    }
+
+    .report-header{
+        float : right;
+    }
+
+    #plag--text-field{
+        position: absolute;
+        left: -32px;
+        width: 680px;
+        margin: 5px;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+
+    #suggestion-cards{
+        position: absolute;
+        left: 625px;
+        width: 38%;
+    }
+
+
+    .user-name {
+        height: 1.48%;
+        float : right;
+        color: #793BB8 !important;
+        font-family: Roboto;
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: right;
+    }
+
+    .assignment-name {
+        height: 18px;
+        width: 170px;
+        float : right;
+        color: #4A4550 !important;
+        font-family: Roboto;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: right;
+    }
+
+    .summary {
+        height: 1.11%;
+        width: 6.5%;
+        color: #39353F !important;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .hr-report-details {
+        margin-top : 5px;
+        margin-bottom : 5px;
+    }
+
+    .report-overview{
+        padding: 20px;
+    }
+
+    .score-container {
+        float:left;
+        width:6%;
+    }
+
+    .issues-container {
+        float:right;
+        width:94%;
+    }
+
+    .original-file {
+        height: 1.48%;
+        width: 13.3%;
+        color: #4A4550 !important;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    .report-details-label {
+        height: 1.17%;
+        width: 15.4%;
+        color: #39353F !important;
+        font-size: 16px;
+    }
+
+    .report-overview-bottom{
+        clear: both;
+    }
+
+    .plagiarism-issues {
+        height: 20px;
+        width: 10px;
+        color: #00A8E6 !important;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .grammar-issues {
+        height: 20px;
+        width: 20px;
+        color: #F6A800 !important;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .similarity-score {
+        height: 20px;
+        width: 20px;
+        color: red !important;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .annotations {
+        height: 1.11%;
+        width: 8.2%;
+        color: #39353F !important;
+        font-family: Roboto !important;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .plag--suggestion-card{
+        box-shadow: 2px 2px 3px 0 rgba(0,0,0,0.17)  !important;;
+    }
+
+
+    .modal-content{
+        top: 150px;
+        left: 3%;
+    }
+
+    .plag--modal-container{
+        border: solid #c2c2c2 1px;
+        width: 1064px;
+    }
+
+    .plag--plagiarism-source-modal-container{
+
+    }
+
+    .plag--p-r-0{
+        float: left;
+        width: 50%;
+    }
+
+    .plag--p-l-0{
+        float: right;
+        width: 50%;
+    }
+
+    #assignment_matched_content{
+        background-color: rgba(0, 168, 230, 0.3) !important;
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+    }
+
+    #source_matched_content{
+        background-color: rgba(0, 168, 230, 0.3) !important;
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+    }
+}

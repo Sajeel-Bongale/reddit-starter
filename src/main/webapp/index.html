@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My App</title>
+    <script type="text/javascript" src="scripts/getToken.js"></script>
+
+    <script type="text/javascript" src="scripts/angular.js"></script>
+
+    <link rel="stylesheet" href="styles/myscript.css">
+
+</head>
+<style>
+        html, body{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+        #header{
+            width: 100%;
+            background-color: red;
+        }
+        li{
+            display: inline-block;
+        }
+        #1, #2, #3{
+            width: 33%;
+        }
+
+        #first {
+            width: 25%;
+            height: 100%;
+            float: left;
+            background-color: rosybrown;
+            border-collapse: collapse;
+        }
+
+        #second {
+            width: 50%;
+            height: 100%;
+            float: left;
+            background-color: royalblue;
+            border-collapse: collapse;
+        }
+
+        #third {
+          width: 25%;
+          height: 100%;
+          position: relative;
+          float: right;
+          background-color: yellow;
+          border-collapse: collapse;
+        }
+    </style>
+<body>
+<header id="header">
+    <nav>
+        <ul>
+            <li>Link 1</li>
+            <li>Link 2</li>
+            <li>Link 3</li>
+            <li>Link 4</li>
+        </ul>
+    </nav>
+</header>
+<article>
+    <div>
+        <div>Some Text</div>
+        <div id="first">
+            <div>S</div>
+            <div>A</div>
+            <div>J</div>
+            <div>E</div>
+            <div>E</div>
+            <div>L</div>
+        </div>
+        <div id="second">
+            <div>S</div>
+            <div>A</div>
+            <div>J</div>
+            <div>E</div>
+            <div>E</div>
+            <div>L</div>
+        </div>
+        <div id="third">Bongale</div>
+    </div>
+</article>
+<footer style="clear:both;">
+    Copyright 2018
+</footer>
+<div>
+    <button onclick="getToken()">Get Token</button>
+</div>
+</body>
+</html>
